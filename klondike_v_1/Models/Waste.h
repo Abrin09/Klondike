@@ -15,6 +15,8 @@ namespace Models {
     public:
         Waste();
 
+        virtual ~Waste();
+
         bool canSetCard(Card *card);
 
         bool canGetCard();

@@ -5,9 +5,8 @@
 #include "Deck.h"
 
 namespace Models {
-    Deck::Deck() {
+    Deck::Deck() = default;
 
-    }
     Deck::Deck(int maxNum) {
         this->MAX_NUM_CARDS = maxNum;
         for (int i = 1; i <= this->MAX_NUM_CARDS; i++) {

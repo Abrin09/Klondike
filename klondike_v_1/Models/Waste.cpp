@@ -6,9 +6,9 @@
 
 namespace Models {
 
-    Waste::Waste() {
+    Waste::Waste() = default;
 
-    }
+    Waste::~Waste() = default;
 
     bool Waste::canGetCard() {
 
@@ -17,5 +17,7 @@ namespace Models {
     bool Waste::canSetCard(Card *card) {
 
     }
+
+
 
 };

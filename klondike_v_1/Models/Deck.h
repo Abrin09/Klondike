@@ -24,9 +24,13 @@ namespace Models {
         static Deck *instance;
 
         Deck();
+
         Deck(int maxNum);
+
         static Deck *getInstance();
+
         void set_maxNum_cards(int maxNum);
+
         void Deck::set_cards();
 
     };
